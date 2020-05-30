@@ -141,6 +141,8 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>🌍 Donations</li>
+
 <li>👋🏽 Welcome!</li>
 
 <li>👓 What I'm Reading</li>
@@ -196,6 +198,8 @@ Error message and password prompt
 <li>$:/config/EditorTypeMappings/text/vnd.tiddlywiki</li>
 
 <li>$:/config/EditToolbarButtons/Visibility/$:/_sq/Stories/divertTiddlerEditMacro</li>
+
+<li>$:/config/KookmaPluginLibrary</li>
 
 <li>$:/config/Navigation/openLinkFromInsideRiver</li>
 
@@ -258,6 +262,8 @@ Error message and password prompt
 <li>$:/core/ui/ControlPanel/StoryView 1</li>
 
 <li>$:/core/ui/ControlPanel/StoryView 2</li>
+
+<li>$:/core/ui/TagTemplate 1</li>
 
 <li>$:/core/ui/ViewTemplate/title</li>
 
@@ -419,6 +425,8 @@ Error message and password prompt
 
 <li>2020</li>
 
+<li>30th May 2020</li>
+
 <li>Andrew Katz</li>
 
 <li>Anne-Laure Le Cunff</li>
@@ -427,15 +435,29 @@ Error message and password prompt
 
 <li>Celeste Headlee</li>
 
+<li>Cloudflare</li>
+
 <li>Design for Real Life</li>
 
 <li>Digital Garden</li>
+
+<li>DNS</li>
 
 <li>Edward B. Burger</li>
 
 <li>Eric A. Meyer</li>
 
 <li>GettingStarted</li>
+
+<li>GitHub</li>
+
+<li>GiveDirectly</li>
+
+<li>GiveWell</li>
+
+<li>JavaScript</li>
+
+<li>Jeremy Ruston</li>
 
 <li>Joel Hooks</li>
 
@@ -483,7 +505,18 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div created="20200530124646177" modified="20200530140525328" tags="" title="👋🏽 Welcome!">
+<div created="20200530171527917" modified="20200530172136795" tags="Donations" title="🌍 Donations">
+<pre>!! Blog Posts:
+
+* [[Giving in 2019|https://personal.jagtalon.com/2020/01/05/giving-in-2019/]]
+* [[On Giving|https://personal.jagtalon.com/2019/09/14/on-giving/]]
+
+!! Organizations I'm supporting:
+
+* [[GiveWell]]
+* [[GiveDirectly]]</pre>
+</div>
+<div created="20200530124646177" modified="20200530172739670" tags="" title="👋🏽 Welcome!">
 <pre>[[TiddlyWiki]] has showed me the potential of a non-linear notebook. It's changed the way I journal and take notes, and it's starting to replace a lot of the tools that I've used in the past. I wrote some of my thoughts about it on my blog:
 
 * [[Hello, TiddlyWiki|https://jagtalon.com/2020/05/22/hello-tiddlywiki/]]
@@ -507,7 +540,9 @@ The distinction will come down to how you blog - some people blog in much the sa
 So this is my personal [[Digital Garden]]. Let me show you around:
 
 * 🌳 {{Digital Garden||$:/core/ui/TagTemplate}}
-* 👓 {{Reading||$:/core/ui/TagTemplate}}</pre>
+* 👓 {{Reading||$:/core/ui/TagTemplate}}
+* ✍️ {{Journal||$:/core/ui/TagTemplate}}
+* 🌎 {{Donations||$:/core/ui/TagTemplate}}</pre>
 </div>
 <div created="20200530135951149" modified="20200530140501995" tags="Reading" title="👓 What I'm Reading">
 <pre>* [[2020]]
@@ -958,11 +993,16 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20200530135119019" modified="20200530135119019" title="$:/config/EditToolbarButtons/Visibility/$:/_sq/Stories/divertTiddlerEditMacro">
 <pre>hide</pre>
 </div>
+<div caption="Kookma Plugin Library" created="20200306121057751" modified="20200317175359110" tags="$:/tags/PluginLibrary" title="$:/config/KookmaPluginLibrary" type="text/vnd.tiddlywiki" url="https://kookma.github.io/TW-PluginLibrary/library/index.html">
+<pre>Kookma plugin library is a set of plugins developed by [[Mohammad|https://github.com/kookma]]. A good recommendation is to backup your data before installing any plugins. These plugins distributed under  MIT license.
+
+To use in other wikis, drag and drop this link to those wikis: [[Kookma Plugin Library|$:/config/KookmaPluginLibrary]]</pre>
+</div>
 <div created="20200418141615149" modified="20200502181307400" tags="stroll" title="$:/config/Navigation/openLinkFromInsideRiver">
 <pre>top</pre>
 </div>
-<div bag="default" created="20191225174624729" modified="20200502181315985" revision="0" tags="stroll" title="$:/config/NewJournal/Title" type="text/vnd.tiddlywiki">
-<pre>YYYY / 0MM / 0DD / 0hh:0mm:0ss /</pre>
+<div bag="default" created="20191225174624729" modified="20200530170107234" revision="0" tags="stroll" title="$:/config/NewJournal/Title" type="text/vnd.tiddlywiki">
+<pre>DDth MMM YYYY</pre>
 </div>
 <div bag="default" created="20200416201744386" modified="20200502181324302" revision="0" tags="stroll" title="$:/config/PageControlButtons/Visibility/$:/_sq/Stories/Templates/StoryTogglePageControl" type="text/vnd.tiddlywiki">
 <pre>show</pre>
@@ -10505,6 +10545,9 @@ exports.has = function(source,operator,options) {
 <div created="20200502183202293" modified="20200502183202293" title="$:/core/ui/ControlPanel/StoryView 2">
 <pre></pre>
 </div>
+<div created="20200530172732467" modified="20200530172732467" title="$:/core/ui/TagTemplate 1">
+<pre></pre>
+</div>
 <div caption="TiddlyWiki default tiddler title position" created="20200418121129515" modified="20200503153640053" tags="stroll titleview" title="$:/core/ui/ViewTemplate/title">
 <pre>\define title-styles()
 fill:$(foregroundColor)$;
@@ -10551,8 +10594,7 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[$:/themes/jd/Whitespace]]
-# [[$:/theme]]</pre>
+# [[$:/config/KookmaPluginLibrary]]</pre>
 </div>
 <div bag="default" revision="0" title="$:/isEncrypted">
 <pre>no</pre>
@@ -12116,8 +12158,8 @@ exports.context = contextWidget;
 <div created="20200418151636450" modified="20200421145858496" title="$:/state/tab-11433013">
 <pre>.topicList</pre>
 </div>
-<div created="20200418121928767" modified="20200530135104317" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Appearance</pre>
+<div created="20200418121928767" modified="20200530170105279" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20200418122101344" modified="20200510141038875" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/System</pre>
@@ -12149,7 +12191,7 @@ exports.context = contextWidget;
 <div bag="default" revision="1" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div created="20200530135059542" list="[[👋🏽 Welcome!]]" modified="20200530140552954" title="$:/StoryList">
+<div created="20200530172138916" list="[[👋🏽 Welcome!]]" modified="20200530172705580" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200519141000553" list="$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200521145647980" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/tags/EditToolbar">
@@ -12212,11 +12254,11 @@ exports.context = contextWidget;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1680&quot;
+            &quot;text&quot;: &quot;2560&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;1050&quot;
+            &quot;text&quot;: &quot;1440&quot;
         },
         &quot;$:/info/browser/language&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/language&quot;,
@@ -12411,6 +12453,10 @@ exports.context = contextWidget;
 <div created="20200530140121825" modified="20200530140121825" title="2020">
 <pre></pre>
 </div>
+<div created="20200530170111716" modified="20200530172233418" tags="Journal" title="30th May 2020">
+<pre>* I started this wiki! It's hosted on [[GitHub]] at [[https://github.com/jagtalon/wiki]] and [[DNS]] setting is through [[Cloudflare]]. It kinda sucks that search engines probably won't get to index this because it's all [[JavaScript]], but that's ok!
+* Wrote on [[👋🏽 Welcome!]], [[👓 What I'm Reading]], and [[🌍 Donations]].</pre>
+</div>
 <div created="20200530140439805" modified="20200530140439805" title="Andrew Katz">
 <pre></pre>
 </div>
@@ -12424,6 +12470,9 @@ exports.context = contextWidget;
 <div created="20200530140439807" modified="20200530140439807" title="Celeste Headlee">
 <pre></pre>
 </div>
+<div created="20200530170429955" modified="20200530170429955" title="Cloudflare">
+<pre></pre>
+</div>
 <div created="20200530140121826" modified="20200530140121826" title="Design for Real Life">
 <pre></pre>
 </div>
@@ -12433,6 +12482,9 @@ exports.context = contextWidget;
 * [[Mental Nodes]]
 * [[My blog is a digital garden, not a blog]]
 * [[Building a digital garden]]</pre>
+</div>
+<div created="20200530170429954" modified="20200530170429954" title="DNS">
+<pre></pre>
 </div>
 <div created="20200530140439806" modified="20200530140439806" title="Edward B. Burger">
 <pre></pre>
@@ -12459,6 +12511,21 @@ Before you start storing important information in Stroll, it is vital to make su
 
 See the [[control panel|$:/ControlPanel]] for more options.
 </pre>
+</div>
+<div created="20200530170429953" modified="20200530170429953" title="GitHub">
+<pre></pre>
+</div>
+<div created="20200530172136797" modified="20200530172212937" title="GiveDirectly">
+<pre>Website: [[https://www.givedirectly.org/|https://www.givedirectly.org/]]</pre>
+</div>
+<div created="20200530172136796" modified="20200530172147042" title="GiveWell">
+<pre>Website: [[https://www.givewell.org/|https://www.givewell.org/]]</pre>
+</div>
+<div created="20200530171414723" modified="20200530171414723" title="JavaScript">
+<pre></pre>
+</div>
+<div created="20200530172616705" modified="20200530172616705" title="Jeremy Ruston">
+<pre></pre>
 </div>
 <div created="20200530132207189" modified="20200530132229090" tags="[[Digital Garden]]" title="Joel Hooks">
 <pre>Website: [[https://joelhooks.com/|https://joelhooks.com/]]</pre>
@@ -12498,8 +12565,18 @@ See the [[control panel|$:/ControlPanel]] for more options.
 <div created="20200530140439805" modified="20200530140439805" title="The Vampire Gideon’s Suicide Hotline and Halfway House for Orphaned Girls">
 <pre></pre>
 </div>
-<div created="20200530130844057" modified="20200530130844057" title="TiddlyWiki">
-<pre></pre>
+<div created="20200530130844057" modified="20200530172632992" title="TiddlyWiki">
+<pre>!! Resources:
+
+* [[Anne-Laure Le Cunff]]'s [[tutorial on TiddlyWiki|https://nesslabs.com/tiddlywiki-beginner-tutorial]]
+* [[Tom Critchlow]]'s [[TiddlyWiki notes|https://tomcritchlow.com/wiki/wikis/tiddlywiki/]]
+* [[YouTube: TiddlyWiki Tutorial|https://www.youtube.com/playlist?list=PLzZCajspPU_UjFn0uy-J9URz0LP4zhxRK]]
+* [[Stroll|https://giffmex.org/stroll/stroll.html]]
+* [[How I Use Roam|https://www.nateliason.com/blog/roam]]
+
+!! Others:
+
+* [[Jeremy Ruston]]'s talk on [[Intertwingling the TiddlyWiki with Erlang|https://www.youtube.com/watch?v=Uv1UfLPK7_Q]]</pre>
 </div>
 <div created="20200530132336875" modified="20200530132417194" tags="[[Digital Garden]]" title="Tom Critchlow">
 <pre>* Website: [[https://tomcritchlow.com/|https://tomcritchlow.com/]]</pre>
