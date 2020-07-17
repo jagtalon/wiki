@@ -283,8 +283,6 @@ Error message and password prompt
 
 <li>$:/favorites/favlist</li>
 
-<li>$:/Import</li>
-
 <li>$:/isEncrypted</li>
 
 <li>$:/language/Buttons/NewHere/Hint</li>
@@ -438,6 +436,10 @@ Error message and password prompt
 <li>$:/state/tab/sidebar--595412856</li>
 
 <li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
+
+<li>$:/state/toc/TableOfContents-Books--1235639821</li>
+
+<li>$:/state/toc/TableOfContents-Recipes--1235639821</li>
 
 <li>$:/state/tree/$:/.giffmex/</li>
 
@@ -1195,6 +1197,8 @@ Error message and password prompt
 
 <li>Systematic Inequality and Economic Opportunity</li>
 
+<li>TableOfContents</li>
+
 <li>Terminus</li>
 
 <li>The 5 Elements of Effective Thinking</li>
@@ -1849,7 +1853,7 @@ To use in other wikis, drag and drop this link to those wikis: [[Kookma Plugin L
 <div created="20200504150240334" modified="20200504150259224" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-journal-here">
 <pre>hide</pre>
 </div>
-<div created="20200531165848469" modified="20200717001337648" title="$:/config/Whitespace/search">
+<div created="20200531165848469" modified="20200717095637596" title="$:/config/Whitespace/search">
 <pre>no</pre>
 </div>
 <div created="20200507132103667" modified="20200507132103667" title="$:/ControlPanel 1">
@@ -11391,11 +11395,6 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20200603125904200" list="[[Welcome! 👋🏽]]" modified="20200709115309735" title="$:/favorites/favlist">
 <pre></pre>
 </div>
-<div status="complete" title="$:/Import">
-<pre>The following tiddlers were imported:
-
-# [[Bayes Theorem]]</pre>
-</div>
 <div bag="default" revision="0" title="$:/isEncrypted">
 <pre>no</pre>
 </div>
@@ -13048,11 +13047,17 @@ exports.context = contextWidget;
 <div created="20200530124608396" modified="20200530125917177" title="$:/state/tab/moresidebar-358244441">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20200418121835270" modified="20200613030903716" title="$:/state/tab/sidebar--595412856">
-<pre>$:/plugins/kookma/favorites/sidebar-tab</pre>
+<div created="20200418121835270" modified="20200717095850206" title="$:/state/tab/sidebar--595412856">
+<pre>TableOfContents</pre>
 </div>
 <div created="20200504200956301" modified="20200530135117011" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/EditToolbar</pre>
+</div>
+<div created="20200717095724672" modified="20200717095725817" title="$:/state/toc/TableOfContents-Books--1235639821">
+<pre>close</pre>
+</div>
+<div created="20200717095549639" modified="20200717095553806" title="$:/state/toc/TableOfContents-Recipes--1235639821">
+<pre>close</pre>
 </div>
 <div created="20200504154623789" modified="20200504154625935" title="$:/state/tree/$:/.giffmex/">
 <pre>hide</pre>
@@ -13072,7 +13077,7 @@ exports.context = contextWidget;
 <div bag="default" revision="1" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div created="20200717001137244" list="[[Welcome! 👋🏽]] [[July 16, 2020]] [[July 15, 2020]] [[July 12, 2020]] [[July 11, 2020]] [[July 9, 2020]] [[July 7, 2020]] [[July 6, 2020]] [[July 3, 2020]] [[July 2, 2020]] [[June 30, 2020]] [[June 28, 2020]] [[June 27, 2020]] [[June 26, 2020]] [[June 25, 2020]] [[June 24, 2020]] [[June 23, 2020]] [[June 22, 2020]] [[June 20, 2020]] [[June 18, 2020]] [[June 17, 2020]] [[June 16, 2020]] [[June 15, 2020]] [[June 12, 2020]] [[June 11, 2020]] [[June 9, 2020]] [[June 8, 2020]] [[June 6, 2020]] [[June 5, 2020]] [[June 4, 2020]] [[June 3, 2020]] [[June 2, 2020]] [[June 1, 2020]] [[May 31, 2020]] [[May 30, 2020]]" modified="20200717002217641" title="$:/StoryList">
+<div created="20200717095536345" list="[[Welcome! 👋🏽]] [[July 16, 2020]] [[July 15, 2020]] [[July 12, 2020]] [[July 11, 2020]] [[July 9, 2020]] [[July 7, 2020]] [[July 6, 2020]] [[July 3, 2020]] [[July 2, 2020]] [[June 30, 2020]] [[June 28, 2020]] [[June 27, 2020]] [[June 26, 2020]] [[June 25, 2020]] [[June 24, 2020]] [[June 23, 2020]] [[June 22, 2020]] [[June 20, 2020]] [[June 18, 2020]] [[June 17, 2020]] [[June 16, 2020]] [[June 15, 2020]] [[June 12, 2020]] [[June 11, 2020]] [[June 9, 2020]] [[June 8, 2020]] [[June 6, 2020]] [[June 5, 2020]] [[June 4, 2020]] [[June 3, 2020]] [[June 2, 2020]] [[June 1, 2020]] [[May 31, 2020]] [[May 30, 2020]]" modified="20200717095912536" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200519141000553" list="$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200521145647980" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/tags/EditToolbar">
@@ -13084,7 +13089,7 @@ exports.context = contextWidget;
 <div bag="default" created="20200127183739219" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/.giffmex/buttons/newnote-datetime $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions" modified="20200502175037744" revision="0" tags="stroll" title="$:/tags/PageControls" type="text/vnd.tiddlywiki">
 <pre></pre>
 </div>
-<div created="20200603125959868" list="$:/core/ui/SideBar/Open $:/core/ui/SideBar/Recent $:/core/ui/SideBar/Tools $:/core/ui/SideBar/More [[Welcome! 👋🏽]]" modified="20200709115309736" title="$:/tags/SideBar">
+<div created="20200603125959868" list="$:/core/ui/SideBar/Open $:/core/ui/SideBar/Recent $:/core/ui/SideBar/Tools $:/core/ui/SideBar/More [[Welcome! 👋🏽]] [[Mental Tools]]" modified="20200717095903771" title="$:/tags/SideBar">
 <pre></pre>
 </div>
 <div bag="default" created="20200128153730498" list="$:/.giffmex/ViewTemplate/title $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body $:/.giffmex/ViewTemplate/viewfullnotes $:/.giffmex/ViewTemplate/refscontext $:/.giffmex/ViewTemplate/refslinks $:/.giffmex/ViewTemplate/refstranscludecollapse" modified="20200502175038389" revision="0" tags="stroll" title="$:/tags/ViewTemplate" type="text/vnd.tiddlywiki">
@@ -13093,7 +13098,7 @@ exports.context = contextWidget;
 <div bag="default" created="20200127144249151" list="$:/core/ui/Buttons/fold $:/.giffmex/ViewToolbar/new-note-here $:/.giffmex/ViewToolbar/new-note-here-datetime $:/.giffmex/viewtemplate/viewrefs $:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/edit $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-others" modified="20200502175036301" revision="0" tags="stroll" title="$:/tags/ViewToolbar" type="text/vnd.tiddlywiki">
 <pre></pre>
 </div>
-<div created="20200418122547595" modified="20200717001337648" title="$:/temp/advancedsearch">
+<div created="20200418122547595" modified="20200717095637597" title="$:/temp/advancedsearch">
 <pre></pre>
 </div>
 <div created="20200603125948632" modified="20200603125953995" title="$:/temp/favorites/new-folder">
@@ -13162,11 +13167,11 @@ exports.context = contextWidget;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1680&quot;
+            &quot;text&quot;: &quot;2560&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;1050&quot;
+            &quot;text&quot;: &quot;1440&quot;
         },
         &quot;$:/info/browser/language&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/language&quot;,
@@ -13175,7 +13180,7 @@ exports.context = contextWidget;
     }
 }</pre>
 </div>
-<div created="20200418122623650" modified="20200716211745392" title="$:/temp/NewTagName">
+<div created="20200418122623650" modified="20200717095546762" title="$:/temp/NewTagName">
 <pre></pre>
 </div>
 <div author="Paco Rivière" core-version="&gt;=5.0.0" created="20200604202930658" dependents="" description="Catalan (Spain)" icon="data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22810%22%20height%3D%22540%22%3E%0A%3Crect%20width%3D%22810%22%20height%3D%22540%22%20fill%3D%22%23FCDD09%22%2F%3E%0A%3Cpath%20stroke%3D%22%23DA121A%22%20stroke-width%3D%2260%22%20d%3D%22M0%2C90H810m0%2C120H0m0%2C120H810m0%2C120H0%22%2F%3E%0A%3C%2Fsvg%3E" modified="20200604202930658" name="ca-ES" original-plugin-type="language" original-tags="" original-title="$:/languages/ca-ES" original-type="application/json" requires-reload="no" server-url="https://tiddlywiki.com/library/v5.1.22/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/ca-ES" type="text/vnd.tiddlywiki" version="5.1.22">
@@ -14131,7 +14136,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20200502174943975" modified="20200502174950301" title="$:/temp/RenameTags/search">
 <pre>tb</pre>
 </div>
-<div created="20200418122544376" modified="20200717001337649" title="$:/temp/search">
+<div created="20200418122544376" modified="20200717095637597" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20200604202930647" modified="20200604202930647" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.22/index.html" url="https://tiddlywiki.com/library/v5.1.22/index.html">
@@ -14448,11 +14453,15 @@ Instructions
 <div created="20200628225908573" modified="20200628225908573" title="Black Lives Matter">
 <pre></pre>
 </div>
-<div created="20200716210753194" modified="20200716210809424" title="Books">
+<div created="20200716210753194" modified="20200717095808740" tags="TableOfContents" title="Books">
 <pre>!! Where to get books:
 * [[Libby]]
 * [[Bookshop.org]]
-* [[Libro.fm]]</pre>
+* [[Libro.fm]]
+
+!! Tagged with 'Books'
+&lt;&lt;list-links &quot;[tag[Books]sort[title]]&quot;&gt;&gt;
+</pre>
 </div>
 <div created="20200623230039827" modified="20200624123107965" tags="[[Where To Buy]]" title="Bookshop.org">
 <pre>[[https://bookshop.org/|https://bookshop.org/]]</pre>
@@ -14526,7 +14535,7 @@ Recipe from [[Joni Trythall]]
 <div created="20200628225908569" modified="20200628225908569" title="Defund the Police">
 <pre></pre>
 </div>
-<div created="20200609112756807" modified="20200609112909367" title="Design">
+<div created="20200609112756807" modified="20200717095607074" tags="TableOfContents" title="Design">
 <pre>&lt;&lt;list-links &quot;[tag[Design]]&quot;&gt;&gt;</pre>
 </div>
 <div created="20200530140121826" modified="20200712215754804" tags="Reading Books" title="Design for Real Life">
@@ -14728,7 +14737,7 @@ You can dig deeper to find out the first principles through [[Socratic Questioni
 * [[https://en.wikipedia.org/wiki/Frank_Rizzo|https://en.wikipedia.org/wiki/Frank_Rizzo]]
 </pre>
 </div>
-<div created="20200609112756809" modified="20200609112925283" title="Frontend">
+<div created="20200609112756809" modified="20200717095654868" tags="TableOfContents" title="Frontend">
 <pre>&lt;&lt;list-links &quot;[tag[Frontend]]&quot;&gt;&gt;</pre>
 </div>
 <div created="20200603125513383" modified="20200606220331572" tags="Frontend Courses" title="Frontend Masters">
@@ -15151,7 +15160,7 @@ On the opposite side of the equation lies the producer of the good or service. P
 <pre>* Website: [[https://www.mentalnodes.com/|https://www.mentalnodes.com/]]
 * Author: [[Anne-Laure Le Cunff]]</pre>
 </div>
-<div created="20200601005100167" modified="20200716182358374" title="Mental Tools">
+<div created="20200601005100167" modified="20200717095903772" tags="TableOfContents $:/tags/SideBar" title="Mental Tools">
 <pre>&lt;&lt;list-links &quot;[tag[Mental Tools]sort[created]]&quot;&gt;&gt;
 </pre>
 </div>
@@ -15322,7 +15331,7 @@ It also talked about the struggles of being an [[Immigrant]] in [[Austria]] and 
 <div created="20200715185626518" modified="20200715185646273" tags="[[Software Tools]] [[Design Tools]] Design" title="Principle.app">
 <pre>https://principleformac.com/</pre>
 </div>
-<div created="20200613154539054" modified="20200615163025691" title="Programming">
+<div created="20200613154539054" modified="20200717095618421" tags="TableOfContents" title="Programming">
 <pre>&lt;&lt;list-links &quot;[tag[Programming]sort[title]]&quot;&gt;&gt;
 </pre>
 </div>
@@ -15363,7 +15372,7 @@ It also talked about the struggles of being an [[Immigrant]] in [[Austria]] and 
 ** ✅ [[We Need To Talk]] by [[Celeste Headlee]]
 ** ✅ [[You Know You Want This]] by [[Kristen Roupenian]]</pre>
 </div>
-<div created="20200608205116745" modified="20200717002159833" title="Recipes">
+<div created="20200608205116745" modified="20200717095548264" tags="TableOfContents" title="Recipes">
 <pre>&lt;&lt;list-links &quot;[tag[Recipes]sort[created]]&quot;&gt;&gt;</pre>
 </div>
 <div created="20200601125102887" modified="20200601125102887" title="Reddit">
@@ -15590,7 +15599,7 @@ Instructions:
 * Questioning the original question – &quot;What was the point of this question?&quot;
 </pre>
 </div>
-<div created="20200608205333553" modified="20200609113002172" title="Software Tools">
+<div created="20200608205333553" modified="20200717095636043" tags="TableOfContents" title="Software Tools">
 <pre>&lt;&lt;list-links &quot;[tag[Software Tools]]&quot;&gt;&gt;</pre>
 </div>
 <div created="20200606215954962" modified="20200606220139575" tags="[[Software Tools]]" title="Sourcetree">
@@ -15652,6 +15661,13 @@ Instructions:
 * Abolish the tipped minimum wage
 * Expand [[Equal Employment Opportunity Commission]] resources
 * Establish a federal program designed to help workers of color enter historically exclusionary industries</pre>
+</div>
+<div caption="Contents" created="20200717095348553" list-after="$:/core/ui/SideBar/Open" modified="20200717095504876" tags="$:/tags/SideBar" title="TableOfContents">
+<pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+
+&lt;&lt;toc-selective-expandable 'TableOfContents'&gt;&gt;
+
+&lt;/div&gt;</pre>
 </div>
 <div created="20200716211547247" modified="20200716211547247" title="Terminus">
 <pre></pre>
